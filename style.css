@@ -81,6 +81,7 @@
 .quem-somos {
     text-align: center;
     padding: 5rem;
+    background-image: linear-gradient(white, #dae5e8)
 }
 
 .quem-somos__descricao {
@@ -124,15 +125,15 @@
 }
 
 .pessoa__imagem--patrick {
-    background-image: url('../img/pessoas/roberta.jpg');
+    background-image: url('img/patrick.jfif');
     
 }
 
 
 .pessoa__imagem--isis {
-    background-image: url('../img/pessoas/andreia.jpg');
+    background-image: url('img/isis.pedroni.jpg');
 }
 
 .pessoa__imagem--ryan {
-    background-image: url('../img/pessoas/marcela.jpg');
+    background-image: url('img/ryan.jpg');
 }
