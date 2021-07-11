@@ -31,11 +31,13 @@ main.first-main p{
 
 main{
   display: flex;
-	padding: 20px 50px;
+	padding: 50px 50px;
   justify-content: space-between;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #e5e5e5;
+  background-image: linear-gradient(#dae5e8, white);
+  
+
 }
 
 .img-2 img{
@@ -103,8 +105,9 @@ input[type=submit]:hover {
 }
 
 
-section{
-  background-color:  rgb(188, 206, 207);
+.section-form{
+
+  background-color:#dae5e8;
   
   
 }
@@ -114,7 +117,7 @@ section{
   justify-content: space-around;
   margin-right: 8px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 60px 20px;
  
   
 }
