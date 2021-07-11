@@ -1,0 +1,153 @@
+*{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+   }
+
+
+     
+/* estilização da MAIN */
+
+h1, p, a {
+  padding: 0px 0px 8px 0px;
+} 
+
+
+main.first-main h1{
+	color: #48453c;
+	font-size: 2.5rem;
+	font-weight: bold;
+  width: 9em;
+  /* text-align: center;
+  align-self: stretch; */
+}
+
+main.first-main p{
+	color: #48453c;
+	font-size: 1.5rem;
+  width: 15em;
+  line-height: 25px;
+}
+
+main{
+  /* position: relative; */
+  display: flex;
+  /* width: 100%; */
+	padding: 20px 50px;
+  /* background-color:rgb(255, 42, 42); */
+  justify-content: space-between;
+  /* background-image: url('img/home.sale.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e5e5e5;
+}
+
+.img-2 img{
+  width: 20vw;
+  margin-top: 40px;
+  /* bottom: 100px; */
+  /* box-shadow: #000000; */
+}
+
+
+.conteiner-main{
+  /* padding: 8em; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 80px; */
+  /* text-align: center;
+  align-items: center; */
+}
+
+
+
+ /* estilização do BOTÃO */
+
+   .main-button{
+    display: flex;
+    padding: 8px 0;
+  }
+  
+  .main-button a {
+    display: inline-block;
+    background-color:rgba(72,69,60,255);
+    font-size: 14px;
+    color: rgba(218,229,232,255)
+    ;
+    padding: 12px 45px;
+    font-weight: bold;
+     border-radius: 23px;
+    border-bottom: 4px solid #ffffff; 
+    /* transition: all .1s; */
+    text-decoration: none;
+    
+  } 
+
+
+/* formulario */
+
+.input{
+  display: flex;
+  /* flex-direction:column; */
+  width: 30vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  /* border-radius: 4px;
+  box-sizing: border-box; */
+  justify-content: right;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:  #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color:  rgb(255, 255, 255);
+  color: #000000;
+}
+
+/* div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+/* .container-section{
+  align-items: flex-end;
+  width: 100%;
+} */
+
+section{
+  background-color:  rgb(188, 206, 207);
+  /* position: relative; */
+  
+}
+
+#banana{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 8px;
+  border-radius: 5px;
+  padding: 20px;
+  /* background-color:#251919 ; */
+  
+}
+
+.promo{
+  width: 15em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
