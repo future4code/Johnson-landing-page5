@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/* HEADER */
+#logo{
+    width: 100%;
+    max-width: 150px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+header{
+    background-color: #dae5e8;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 10%;
+    max-height: 200px;
+ }
+
+header a{
+    text-decoration: none;
+    color:black;
+}
+
+header a:hover{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.minhaConta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+#minhaConta-botao{
+    padding: 16px;
+    background-color: #48453c;
+    font-size: 20px;
+    border-radius: 32px;
+    color: white;
+}
+
+#minhaConta-botao:hover{
+    background-color: white;
+    color: #48453c;
+}
+
+#shoppingcart{
+    height: 2em;
+    border-radius: 16px;
+}
+/* MAIN */
+
+main{
+    flex-grow: 2;
+}
+
+
+
+/* FOOTER */
+#logo2{
+    width: 100%;
+    max-width: 150px;
+}
+footer{
+    background-color: #dae5e8;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    flex: 1;
+    max-height: 200px;
+}
+
+.rede-sociais ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.rede-sociais img:hover{
+    opacity: 0.6;
+}
+
+.rede-sociais img{
+    height: 28px;
+    border: 1px solid none;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.linkedin-link,.twitter-link,.facebook-link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.atendimento{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.atendimento a{
+    color: black;
+}
+
+footer img{
+    border-radius: 100px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */ 
+nav{
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+   
+}
+header{
+    padding: 0 0;
+}
+#logo,#logo2{
+    max-width: 100px;
+}
+#minhaConta-botao{
+    padding: 8px;
+    font-size: small;
+}
+
+.rede-sociais ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding: 4px;
+    justify-content: space-evenly;
+    
+}
+
+.atendimento p{
+    padding: 0px 8px;
+}
+.atendimento{
+    font-size: small;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.atendimento b{
+    font-size: 16px;
+    
+}
+
+.rede-sociais b{
+    display: none;
+}
+.logofooter{
+    display: flex;
+    
+    align-items: center;
+}
+.minhaConta{
+    flex-direction: column;
+    
+}
+}
